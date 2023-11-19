@@ -57,13 +57,17 @@ body {
     font-size: 16px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.4);
-    transition: all 0.4s ease-in 0.2s;
+    transition: all 0.2s ease-in 0.2s;
     cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]) {
     background: #265073;
     color: #9AD0C2;
+}
+
+.btn:disabled {
+    cursor: no-drop;
 }
 
 .correct {
