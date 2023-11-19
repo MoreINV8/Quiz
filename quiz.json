@@ -1,0 +1,47 @@
+[
+    {
+        "question" : "Which is the biggest continent in the world?",
+        "answer" : [
+            {"data" : "Antarctica", "status" : false},
+            {"data" : "Europe", "status" : false},
+            {"data" : "Asia", "status" : true},
+            {"data" : "Africa", "status" : false}
+        ]
+    },
+    {
+        "question" : "Which country has the most population in the world?",
+        "answer" : [
+            {"data" : "China", "status" : false},
+            {"data" : "India", "status" : true},
+            {"data" : "United States", "status" : false},
+            {"data" : "Russia", "status" : false}
+        ]
+    },
+    {
+        "question" : "What is valocity of light?",
+        "answer" : [
+            {"data" : "6.71 * 10^8 miles/hr", "status" : false},
+            {"data" : "1.08 * 10^9 km/hr", "status" : false},
+            {"data" : "3 * 10^8 m/s", "status" : false},
+            {"data" : "Has the correct answer more than one choice.", "status" : true}
+        ]
+    },
+    {
+        "question" : "3+3(2+3)=",
+        "answer" : [
+            {"data" : "18", "status" : true},
+            {"data" : "45", "status" : false},
+            {"data" : "Both correct", "status" : false},
+            {"data" : "None correct", "status" : false}
+        ]
+    },
+    {
+        "question" : "Which is not OOP programming language?",
+        "answer" : [
+            {"data" : "Python", "status" : false},
+            {"data" : "Javascript", "status" : false},
+            {"data" : "C", "status" : true},
+            {"data" : "C++", "status" : false}
+        ]
+    }
+]
