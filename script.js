@@ -18,6 +18,7 @@ async function loadQuestion() {
 async function startQuiz() {
     score = 0;
     questionIndex = 0;
+    nextBtn.innerHTML = "Next";
     await showQuestion();
 }
 
