@@ -3,3 +3,85 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: #2D9596;
+}
+
+.app {
+    width: 90%;
+    background: #ECF4D6;
+    margin: 60px auto 0;
+    padding: 30px 30px 50px;
+    border-radius: 20px;
+}
+
+.app h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #265073;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #265073;
+    margin: 10px 0 20px;
+}
+
+.question h3 {
+    color: #265073;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 10px 0px 10px 30px;
+}
+
+#nextBtn {
+    display: block;
+    margin: 30px auto 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    color: white;
+    background-color: #265073;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn {
+    outline: none;
+    border: 2px solid #265073;
+    width: 100%;
+    margin: 10px;
+    padding: 20px 50px;
+    text-align: left;
+    color: #265073;
+    font-size: 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.4);
+    transition: all 0.4s ease-in 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #265073;
+    color: #9AD0C2;
+}
+
+.correct {
+    color: #265073;
+    background: #9AD0C2;
+    border: none;
+}
+
+.wrong {
+    color: white;
+    background: red;
+    border: none;
+}
+
+/* 
+code color
+#ECF4D6
+#9AD0C2
+#2D9596
+#265073
+*/
